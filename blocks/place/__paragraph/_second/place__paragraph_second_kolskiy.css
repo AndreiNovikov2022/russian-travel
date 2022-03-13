@@ -1,0 +1,10 @@
+.place__paragraph_second_kolskiy {
+    width: 90%;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+
+    .place__paragraph_second_kolskiy {
+        line-height: 1.60;
+    }
+}

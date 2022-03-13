@@ -1,0 +1,34 @@
+.place__website {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 0 32px 16px;
+    grid-area: website;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .place__website {
+        width: 352px;
+        padding: 0 0 28px 28px;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+
+    .place__website {
+        padding: 0 0 32px 32px;
+        justify-content: flex-end;
+        width: 456px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .place__website {
+        padding: 0 0 40px 40px;
+        justify-content: flex-end;
+        min-width: 456px;
+    }
+}

@@ -1,0 +1,56 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.place__link {
+    position: relative;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 12px 0 0;
+    opacity: 1;
+    text-decoration: none;
+    align-self: baseline;
+}
+
+.place__link:before {
+    position: absolute;
+    height: 1px;
+    content: '';
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #FFFFFF;
+}
+
+.place__link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .place__link {
+        padding: 12px 0 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+
+    .place__link {
+        padding: 12px 0 0;
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .place__link {
+        padding: 12px 0 0;
+        margin-bottom: 8px;
+    }
+}

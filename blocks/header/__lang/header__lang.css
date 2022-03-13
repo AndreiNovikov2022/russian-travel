@@ -1,0 +1,34 @@
+.header__lang {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0 0 7px 0;
+    width: 62px;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .header__lang {
+        padding-bottom: 5px;
+        width: 77px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+
+    .header__lang {
+        padding-bottom: 5px;
+        width: 77px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .header__lang {
+        padding-bottom: 5px;
+        width: 77px;
+    }
+}
