@@ -1,9 +1,6 @@
-* {
+.cover__subtitle {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-.cover__subtitle {
     width: 256px;
     font-size: 14px;
     line-height: 16px;

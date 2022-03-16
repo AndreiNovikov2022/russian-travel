@@ -1,9 +1,6 @@
-* {
+.footer__copyright {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-.footer__copyright {
     font-size: 14px;
     line-height: 14px;
     font-weight: normal;
@@ -17,7 +14,6 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
     .footer__copyright {
-        font-size: 14px;
         line-height: 18px;
         padding: 0;
         align-self: baseline;
@@ -27,7 +23,6 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
 
     .footer__copyright {
-        font-size: 14px;
         line-height: 18px;
         padding: 0;
         align-self: baseline;
@@ -37,7 +32,6 @@
 @media screen and (min-width: 1280px) {
 
     .footer__copyright {
-        font-size: 14px;
         line-height: 18px;
         padding: 0;
         align-self: baseline;

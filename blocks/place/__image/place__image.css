@@ -10,7 +10,6 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
     .place__image {
-        display: block;
         min-width: 340px;
     }
 }
@@ -18,7 +17,6 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
 
     .place__image {
-        display: block;
         min-width: 440px;
     }
 }
@@ -26,7 +24,6 @@
 @media screen and (min-width: 1280px) {
     
     .place__image {
-        display: block;
         width: 460px;
     }
 }

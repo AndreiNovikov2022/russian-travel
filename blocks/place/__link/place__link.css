@@ -1,9 +1,6 @@
-* {
+.place__link {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-.place__link {
     position: relative;
     font-size: 18px;
     line-height: 22px;
@@ -34,7 +31,6 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
     .place__link {
-        padding: 12px 0 0;
         margin-bottom: 20px;
     }
 }
@@ -42,7 +38,6 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
 
     .place__link {
-        padding: 12px 0 0;
         margin-bottom: 16px;
     }
 }
@@ -50,7 +45,6 @@
 @media screen and (min-width: 1280px) {
 
     .place__link {
-        padding: 12px 0 0;
         margin-bottom: 8px;
     }
 }

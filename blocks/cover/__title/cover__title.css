@@ -1,9 +1,6 @@
-* {
+.cover__title {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-.cover__title {
     width: 288px;
     font-size: 32px;
     line-height: 35px;
@@ -14,11 +11,6 @@
     bottom: 0;
     justify-content: center;
     z-index: 4;
-}
-
-.cover__link {
-    text-decoration: none;
-    color: #FFFFFF;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -47,7 +39,7 @@
         width: 560px;
         font-size: 72px;
         line-height: 76px;
-        padding: 0 0 0;
+        padding: 0;
         margin: 0;
     }
 }

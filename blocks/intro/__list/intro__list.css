@@ -1,9 +1,6 @@
-* {
+.intro__list {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-
-.intro__list {
     width: 288px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -13,7 +10,7 @@
     line-height: 18px;
     font-weight: bold;
     color: #FFFFFF;
-    padding: 32px 0 0;
+    padding: 34px 0 0;
     margin: 0;
 }
 

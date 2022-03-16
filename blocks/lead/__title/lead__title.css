@@ -1,9 +1,6 @@
-* {
+.lead__title {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-.lead__title {
     font-size: 40px;
     width: 288px;
     line-height: 44px;

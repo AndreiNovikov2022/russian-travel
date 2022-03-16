@@ -1,9 +1,6 @@
-* {
+.header__lang-link {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.header__lang-link {
   position: relative;
   font-size: 18px;
   line-height: 20px;
